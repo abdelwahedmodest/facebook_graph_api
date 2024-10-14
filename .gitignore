@@ -1,0 +1,67 @@
+# Exclure l'environnement virtuel Python
+myvenv/
+venv/
+
+# Exclure les fichiers d'environnement
+.env
+
+# Exclure les répertoires de dépendances Node.js
+node_modules/
+
+# Exclure les fichiers compilés Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.pyo
+
+# Exclure les fichiers de logs
+*.log
+*.pot
+*.pyc
+
+# Exclure les bases de données locales
+db.sqlite3
+db.sqlite3-journal
+
+# Exclure les fichiers statiques générés par Django
+/staticfiles/
+/media/
+
+# Exclure les fichiers d'historique de migration de Django
+*.mo
+*.pot
+
+# Exclure les fichiers de test coverage
+htmlcov/
+
+# Exclure les rapports de test
+.coverage
+*.cover
+
+# Exclure les fichiers créés par l'éditeur ou IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Exclure les fichiers de cache
+*.swp
+*.swo
+
+# Exclure les fichiers de configuration pour Heroku
+Procfile
+
+# Exclure les fichiers de build front-end (React)
+build/
+public/
+
+# Exclure les fichiers de build Webpack (si utilisés)
+dist/
+
+# Exclure les fichiers de build de Docker (si utilisés)
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+docker-compose.override.yml
